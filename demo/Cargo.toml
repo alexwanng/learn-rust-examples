@@ -1,0 +1,18 @@
+[package]
+name = "demo"
+version = "0.1.0"
+authors = ["Alex Wang <idea.wangtj@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "main"
+path = "main.rs"
+
+[[bin]]
+name = "demodemo"
+path = "demodemo.rs"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
